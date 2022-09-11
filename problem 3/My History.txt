@@ -1,0 +1,248 @@
+    1  exit
+    2  passwd
+    3  pwd
+    4  ls
+    5  mkdir TRGN514
+    6  cd TRGN514
+    7  mkdir Activity_1A
+    8  ls
+    9  exit
+   10  ls
+   11  cd TRGN514
+   12  ls
+   13  cd Activity_1A
+   14  vi
+   15  vi heartrates.txt
+   16  pwd
+   17  exit
+   18  cd TRGN514
+   19  mkdir Activity_1B
+   20  ls
+   21  cd Activity_1B
+   22  wget http://ecg.mit.edu/time-series/hr.11839
+   23  wget http://ecg.mit.edu/time-series/ts2.gif
+   24  wget http://ecg.mit.edu/time-series/ts3.gif
+   25  wget http://ecg.mit.edu/time-series/ts4.gif
+   26  ls
+   27  rm ts2.gif
+   28  rm ts3.gif
+   29  rm ts4.gif
+   30  ls
+   31  wget http://ecg.mit.edu/time-series/hr.7257
+   32  wget http://ecg.mit.edu/time-series/hr.207
+   33  wget http://ecg.mit.edu/time-series/hr.237
+   34  ls
+   35  mv hr.11839 series1_1800
+   36  ls
+   37  mv hr.207 series2_1800
+   38  mv hr.237 series3_950
+   39  mv hr.7257 series4_950
+   40  ls
+   41  vi series_halfseconds_1800
+   42  vi series1_1800
+   43  ls
+   44  vi series_halfseconds_1800
+   45  vi series2_1800
+   46  vi series3_950
+   47  vi series4_950
+   48  vi series2_1800
+   49  vi series3_950
+   50  ls
+   51  paste series_halfseconds_1800 series1_1800 series2_1800 series3_950 series4_950 > series_all_merged.txt
+   52  ls
+   53  vi series_all_merged.txt
+   54  ls
+   55  rm Activity_1B
+   56  rm series_all_merged.txt
+   57  ls
+   58  rm series2_1800
+   59  rm series3_1800
+   60  rm series3_950
+   61  rm seires4_950
+   62  rm series4_950
+   63  ls
+   64  rm series1_1800
+   65  ls
+   66  wget http://ecg.mit.edu/time-series/hr.11839
+   67  wget http://ecg.mit.edu/time-series/hr.7257
+   68  ls
+   69  wget http://ecg.mit.edu/time-series/hr.207
+   70  wget http://ecg.mit.edu/time-series/hr.237
+   71  ls
+   72  mv hr.11839 series1_1800
+   73  mv hr.7257 series2_1800
+   74  mv hr.207 series3_950
+   75  mv hr.237 series4_950
+   76  ls
+   77  vi series1_1800
+   78  vi series2_1800
+   79  vi series3_950
+   80  vi series4_950
+   81  ls
+   82  paste seires_halfseconds_1800 series1_1800 series2_1800 series3_950 series4_950 > series_all_merged.txt
+   83  paste series_halfseconds_1800 series1_1800 series2_1800 series3_950 series4_950 > series_all_merged.txt
+   84  ls
+   85  vi series_all_merged.txt
+   86  pwd
+   87  exit
+   88  ls
+   89  cd ~
+   90  ls
+   91  ls -l
+   92  mkdir bin
+   93  ls
+   94  mkdir scripts
+   95  cd trgn514
+   96  ls
+   97  mkdir projects
+   98  ls
+   99  mkdir assignments
+  100  cd assignments
+  101  git clone https://github.com/eunksung/trgn_assignments1.git
+  102  ls
+  103  cd trgn_assignments1
+  104  ls
+  105  vim README.md
+  106  git add . -A
+  107  git commit -m "First commit"
+  108  exit
+  109  git add . -A
+  110  ls
+  111  /cd assignments
+  112  cd assignments
+  113  ls
+  114  git add . -A
+  115  cd trgn_assignments1
+  116  ls
+  117  git add . -A
+  118  git commit -m "First commit"
+  119  git config --global user.email "eksung@usc.edu"
+  120  git config --local user.name "eunksung"
+  121  git config --list
+  122  git commit -m "First commit"
+  123  git push
+  124  ls
+  125  cd assignments
+  126  ls
+  127  cd trgn_assignemts1
+  128  cd trgn_assignments1
+  129  ls
+  130  git add . -A
+  131  git commit -m "First commit"
+  132  git push
+  133  ls
+  134  ls ~
+  135  mkdir problem1
+  136  cd problem1
+  137  path
+  138  ~$path
+  139  $path
+  140  $PATH
+  141  ''
+  142  pwd
+  143  history
+  144  history > myhistory.problem1.txt
+  145  ls
+  146  cat myhistory.problem1.txt
+  147  cd ''
+  148  pwd
+  149  ls
+  150  ''
+  151  cd ..
+  152  cd problem2
+  153  cp /scratch/data/bashrc_sample ~/assignments/trgn_assignment1/problem2/ .
+  154  whereis .bashrc
+  155  cp ~/usr/bin/ ~/assignments/trgn_assignment1/problem2/ .
+  156  cp ~/usr/bin/.bashrc/ ~/assignments/trgn_assignment1/problem2/ .
+  157  cd ~
+  158  cp /scratch/data/bashrc_sample ~/assignments/trgn_assignment1/problem2/ .
+  159  ls -a
+  160  cp ~/.bashrc ~/assignments/trgn_assignment1/problem2/ .
+  161  cp ./.bashrc ~/assignments/trgn_assignment1/problem2/ .
+  162  which .bashrc
+  163  cp /home/eksung-F22/bin/.bashrc /home/assignments/trgn_assignment1/problem2/ .
+  164  ls -a
+  165  pwd
+  166  cp /home/eksung-F22/.bashrc /home/eksung-F22/assignments/trgn_assignment1/problem2/ .
+  167  cp ./.bashrc ./assignments/trgn_assignment1/problem2/ .
+  168  cd .bash_history
+  169  cat .bash_history
+  170  ls
+  171  ls -a
+  172  pwd
+  173  cd bin
+  174  ls
+  175  ls -a
+  176  cd ..
+  177  cp ~/.bashrc ~/assignments/trgn_assignmnet1/problem2/ .
+  178  ~/.bashrc
+  179  ls -l
+  180  cp /./.bashrc /~/assignments/trgn_assignment1/problem2/ .
+  181  cp ./.bashrc ~/assignments/trgn_assignment1/problem2/ .
+  182  cp ./.bashrc ~/assignments/trgn_assignment1/problem2/ .
+  183  cp ./.bashrc ~/assignments/trgn_assignment1/problem2/ .bashrc_sample
+  184  cp ./.bashrc ~/assignments/trgn_assignment1/problem2/
+  185  cp ./bashrc ~/assignments/trgn_assignment1/problem2/ .
+  186  mv .bashrc bashrc_sample
+  187  ls
+  188  pwd
+  189  cp ./bashrc_sample ./assignments/trgn_assignment1/problem2/ .
+  190  /cd prlbme2
+  191  /cd problem2
+  192  /cd assignmnet
+  193  cd problem2
+  194  cd assignments
+  195  cd trgn_assignment2
+  196  cd trgn_assignment1
+  197  ls
+  198  cd trgn_assignments1
+  199  cd problem2
+  200  ls
+  201  mkdir problem2
+  202  ls
+  203  cp /home/eksung-F22/bashrc_sample /home/eksung-F22/assignments/trgn_assignments1/problem2 .
+  204  cp /home/eksung-F22/bashrc_sample /home/eksung-F22/assignments/trgn_assignments1/problem2
+  205  cd problem2
+  206  ls
+  207  vim bashrc_sample
+  208  source ~/assignments/trgn_assignments1/problem2/bashrc_sample
+  209  cp ~/assignments/trgn_assignments1/problem2/bashrc_sample ~/.bashrc
+  210  exit
+  211  ls -a
+  212  cd data
+  213  cd home
+  214  which vimrc
+  215  which vim
+  216  cp /home/data/vimrc ~/assignments/trgn_assignment1/problem2/
+  217  cp /home/data/vimrc ~/assignments/trgn_assignments1/problem2/
+  218  cd assignments
+  219  cd trng_assignments1
+  220  cd problem2
+  221  ls
+  222  cd trgn_assignments1
+  223  cd problem2
+  224  ls
+  225  vim vimrc
+  226  cp vimrc ~/.vimrc
+  227  cd ..
+  228  mkdir problem/ /3
+  229  ls
+  230  mkdir problem\ 3
+  231  ls
+  232  ls -l
+  233  cd problem\ 3
+  234  history
+  235  echo history > My\ History.txt
+  236  ls
+  237  cat My\ History.txt
+  238  cat My\ History
+  239  echo My\ History.txt
+  240  vim My\ History.txt
+  241  rm My\ History.txt
+  242  ls
+  243  echo "history" > My\ History.txt
+  244  ls
+  245  cat My\ History.txt
+  246  echo My\ History.txt
+  247  rm My\ History.txt
+  248  history > My\ History.txt

@@ -1,0 +1,129 @@
+    1  exit
+    2  passwd
+    3  pwd
+    4  ls
+    5  mkdir TRGN514
+    6  cd TRGN514
+    7  mkdir Activity_1A
+    8  ls
+    9  exit
+   10  ls
+   11  cd TRGN514
+   12  ls
+   13  cd Activity_1A
+   14  vi
+   15  vi heartrates.txt
+   16  pwd
+   17  exit
+   18  cd TRGN514
+   19  mkdir Activity_1B
+   20  ls
+   21  cd Activity_1B
+   22  wget http://ecg.mit.edu/time-series/hr.11839
+   23  wget http://ecg.mit.edu/time-series/ts2.gif
+   24  wget http://ecg.mit.edu/time-series/ts3.gif
+   25  wget http://ecg.mit.edu/time-series/ts4.gif
+   26  ls
+   27  rm ts2.gif
+   28  rm ts3.gif
+   29  rm ts4.gif
+   30  ls
+   31  wget http://ecg.mit.edu/time-series/hr.7257
+   32  wget http://ecg.mit.edu/time-series/hr.207
+   33  wget http://ecg.mit.edu/time-series/hr.237
+   34  ls
+   35  mv hr.11839 series1_1800
+   36  ls
+   37  mv hr.207 series2_1800
+   38  mv hr.237 series3_950
+   39  mv hr.7257 series4_950
+   40  ls
+   41  vi series_halfseconds_1800
+   42  vi series1_1800
+   43  ls
+   44  vi series_halfseconds_1800
+   45  vi series2_1800
+   46  vi series3_950
+   47  vi series4_950
+   48  vi series2_1800
+   49  vi series3_950
+   50  ls
+   51  paste series_halfseconds_1800 series1_1800 series2_1800 series3_950 series4_950 > series_all_merged.txt
+   52  ls
+   53  vi series_all_merged.txt
+   54  ls
+   55  rm Activity_1B
+   56  rm series_all_merged.txt
+   57  ls
+   58  rm series2_1800
+   59  rm series3_1800
+   60  rm series3_950
+   61  rm seires4_950
+   62  rm series4_950
+   63  ls
+   64  rm series1_1800
+   65  ls
+   66  wget http://ecg.mit.edu/time-series/hr.11839
+   67  wget http://ecg.mit.edu/time-series/hr.7257
+   68  ls
+   69  wget http://ecg.mit.edu/time-series/hr.207
+   70  wget http://ecg.mit.edu/time-series/hr.237
+   71  ls
+   72  mv hr.11839 series1_1800
+   73  mv hr.7257 series2_1800
+   74  mv hr.207 series3_950
+   75  mv hr.237 series4_950
+   76  ls
+   77  vi series1_1800
+   78  vi series2_1800
+   79  vi series3_950
+   80  vi series4_950
+   81  ls
+   82  paste seires_halfseconds_1800 series1_1800 series2_1800 series3_950 series4_950 > series_all_merged.txt
+   83  paste series_halfseconds_1800 series1_1800 series2_1800 series3_950 series4_950 > series_all_merged.txt
+   84  ls
+   85  vi series_all_merged.txt
+   86  pwd
+   87  exit
+   88  ls
+   89  cd ~
+   90  ls
+   91  ls -l
+   92  mkdir bin
+   93  ls
+   94  mkdir scripts
+   95  cd trgn514
+   96  ls
+   97  mkdir projects
+   98  ls
+   99  mkdir assignments
+  100  cd assignments
+  101  git clone https://github.com/eunksung/trgn_assignments1.git
+  102  ls
+  103  cd trgn_assignments1
+  104  ls
+  105  vim README.md
+  106  git add . -A
+  107  git commit -m "First commit"
+  108  exit
+  109  ls
+  110  cd assignments
+  111  ls
+  112  cd trgn_assignemts1
+  113  cd trgn_assignments1
+  114  ls
+  115  git add . -A
+  116  git commit -m "First commit"
+  117  git push
+  118  ls
+  119  ls ~
+  120  mkdir problem1
+  121  cd problem1
+  122  path
+  123  ~$path
+  124  $path
+  125  $PATH
+  126  ''
+  127  pwd
+  128  history
+  129  history > myhistory.problem1.txt
